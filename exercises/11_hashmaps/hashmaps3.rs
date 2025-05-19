@@ -5,7 +5,6 @@
 // You have to build a scores table containing the name of the team, the total
 // number of goals the team scored, and the total number of goals the team
 // conceded.
-
 use std::collections::HashMap;
 
 // A structure to store the goal details of a team.

@@ -1,8 +1,6 @@
-fn main() {
-    let number = "T-H-R-E-E"; // Don't change this line
-    println!("Spell a number: {}", number);
+// TODO: Change the line below to fix the compiler error.
+const NUMBER: i32 = 3;
 
-    // TODO: Fix the compiler error by changing the line below without renaming the variable.
-    number = 3;
-    println!("Number plus two is: {}", number + 2);
+fn main() {
+    println!("Number: {NUMBER}");
 }
